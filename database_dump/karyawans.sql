@@ -1,0 +1,11 @@
+CREATE TABLE karyawans (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    email VARCHAR(100),
+    departemen VARCHAR(100),
+    jabatan VARCHAR(100),
+    pelatihan VARCHAR(100),
+    tanggal_daftar DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
